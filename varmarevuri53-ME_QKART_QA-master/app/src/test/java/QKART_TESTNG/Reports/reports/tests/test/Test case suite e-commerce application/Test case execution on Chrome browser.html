@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Test case execution on Chrome browser</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test case execution on Chrome browser</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 15 18:53:52 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>381 seconds (381660 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Group_Sanity Group_Regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase02()'><b>TestCase02</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that an existing user is not allowed to re-register on QKart<br>Parameters: testUser, abc@123</td>
+<td></td>
+<td>35</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase07()'><b>TestCase07</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that the contents made to the cart are saved againts the user's login details<br>Parameters: Stylecon 9 Seater RHS Sofa Set, Xtend Smart Watch</td>
+<td></td>
+<td>23</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase12()'><b>TestCase12</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Ensure that the Advertisement Links on the QKART page are clickable<br>Parameters: YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3</td>
+<td></td>
+<td>24</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase03()'><b>TestCase03</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify the functionality of search text box<br>Parameters: YONEX</td>
+<td></td>
+<td>37</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase11()'><b>TestCase11</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that the contact us dialog works fine<br>Parameters: crio user, criouser@gmail.com, Testing the contact us page</td>
+<td></td>
+<td>3</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase06()'><b>TestCase06</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that the contents of the cart can be edited<br>Parameters: Xtend Smart Watch, Yarine Floor Lamp</td>
+<td></td>
+<td>29</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase04()'><b>TestCase04</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify the existence of size chart for certain items and validate contents of size chart<br>Parameters: Roadster</td>
+<td></td>
+<td>12</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase05()'><b>TestCase05</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that a new user can add multiple products in to the cart and Checkout<br>Parameters: YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3</td>
+<td></td>
+<td>23</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase08()'><b>TestCase08</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that insufficient balance error is thrown when the wallet balance is not enough<br>Parameters: Stylecon 9 Seater RHS Sofa Set, 60</td>
+<td></td>
+<td>146</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase10()'><b>TestCase10</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that privacy policy and about us links are working fine</td>
+<td></td>
+<td>9</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase09()'><b>TestCase09</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that a product added to a cart is available when a new tab is added</td>
+<td></td>
+<td>14</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+<tr>
+<td title='QKART_TESTNG.QKART_Tests.TestCase01()'><b>TestCase01</b><br>Test class: QKART_TESTNG.QKART_Tests<br>Test method: Verify that a new user can register and login to QKart<br>Parameters: testUser, abc@123</td>
+<td></td>
+<td>8</td>
+<td>QKART_TESTNG.QKART_Tests@4f44d7d2</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QKART_TESTNG.QKART_Tests" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-05-15T13:23:52" hostname="varmarevuri53" time="381.29">
+  <properties/>
+  <testcase name="TestCase01[0](testUser, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="8.805"/>
+  <testcase name="TestCase02[0](testUser, abc@123)" classname="QKART_TESTNG.QKART_Tests" time="35.796"/>
+  <testcase name="TestCase03[0](YONEX)" classname="QKART_TESTNG.QKART_Tests" time="37.115"/>
+  <testcase name="TestCase04[0](Roadster)" classname="QKART_TESTNG.QKART_Tests" time="12.39"/>
+  <testcase name="TestCase05[0](YONEX Smash Badminton Racquet, Tan Leatherette Weekender Duffle, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="23.751"/>
+  <testcase name="TestCase06[0](Xtend Smart Watch, Yarine Floor Lamp)" classname="QKART_TESTNG.QKART_Tests" time="29.942"/>
+  <testcase name="TestCase07[0](Stylecon 9 Seater RHS Sofa Set, Xtend Smart Watch)" classname="QKART_TESTNG.QKART_Tests" time="23.978"/>
+  <testcase name="TestCase08[0](Stylecon 9 Seater RHS Sofa Set, 60)" classname="QKART_TESTNG.QKART_Tests" time="146.264"/>
+  <testcase name="TestCase10" classname="QKART_TESTNG.QKART_Tests" time="9.377"/>
+  <testcase name="TestCase09" classname="QKART_TESTNG.QKART_Tests" time="14.86"/>
+  <testcase name="TestCase11[0](crio user, criouser@gmail.com, Testing the contact us page)" classname="QKART_TESTNG.QKART_Tests" time="3.224"/>
+  <testcase name="TestCase12[0](YONEX Smash Badminton Racquet, Addr line 1 addr Line 2 addr line 3)" classname="QKART_TESTNG.QKART_Tests" time="24.381"/>
+  <system-out><![CDATA[Test Case Start: TestCase01
+2023-05-15T18:53:52.442131 |  Start TestCase  |  Test Case 1: Verify User Registration | DONE
+2023-05-15T18:54:00.435525 |  Test Step  |  User Perform Login:  | PASS
+2023-05-15T18:54:00.945162 |  End TestCase  |  Test Case 1: Verify user Registration :  | PASS
+Test Case End: TestCase01
+Test Case Start: TestCase02
+2023-05-15T18:54:03.559355 |  Start Testcase  |  Test Case 2: Verify User Registration with an existing username  | DONE
+2023-05-15T18:54:06.312226 |  Test Step  |  User Registration :  | PASS
+2023-05-15T18:54:38.112772 |  End TestCase  |  Test Case 2: Verify user Registration :  | PASS
+Test Case End: TestCase02
+Test Case Start: TestCase03
+2023-05-15T18:54:41.199814 |  TestCase 3  |  Start test case : Verify functionality of search box  | DONE
+2023-05-15T18:54:45.837932 |  Step Success  |  Successfully validated the search results  | PASS
+Error while searching for a product: Expected condition failed: waiting for visibility of all elements located by By.xpath: //div[@class='MuiCardContent-root css-1qw96cp'][1]/p[contains(text(),'Gesundheit')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'varmarevuri53', ip: '192.168.24.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.18'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.dADaRL}, goog:chromeOptions: {debuggerAddress: localhost:46299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: d9a563106b2718f6f9ca2a87035...}
+Session ID: d9a563106b2718f6f9ca2a87035ca1de
+Test Case End: TestCase03
+Test Case Start: TestCase04
+2023-05-15T18:55:18.746592 |  TestCase 4  |  Start test case : Verify the presence of size Chart | DONE
+2023-05-15T18:55:22.856276 |  Step Success  |  Successfully validated presence of Size Chart Link | PASS
+2023-05-15T18:55:23.034264 |  Step Success  |  Validated presence of drop down | PASS
+2023-05-15T18:55:27.492067 |  Step Success  |  Successfully validated contents of Size Chart Link | PASS
+2023-05-15T18:55:30.228605 |  TestCase 4  |  End Test Case: Validated Size Chart Details | PASS
+Test Case End: TestCase04
+Test Case Start: TestCase05
+2023-05-15T18:55:32.301763 |  Start TestCase  |  Test Case 5: Verify Happy Flow of buying products | DONE
+2023-05-15T18:55:39.274693 |  End TestCase  |  Test Case 5: Happy Flow Test Failed :  | PASS
+Unable to find the given product
+2023-05-15T18:55:55.027227 |  End TestCase  |  Test Case 5: Happy Flow Test Completed :  | PASS
+Test Case End: TestCase05
+Test Case Start: TestCase06
+Test Case End: TestCase06
+Test Case Start: TestCase07
+2023-05-15T18:56:28.584826 |  Start TestCase  |  Test Case 7: Verify that cart contents are persisted after logout | DONE
+2023-05-15T18:56:51.132652 |  End TestCase  |  Test Case 7: Verify that cart contents are persisted after logout:  | PASS
+Test Case End: TestCase07
+Test Case Start: TestCase08
+2023-05-15T18:56:53.938978 |  Start TestCase  |  Test Case 8: Verify that insufficient balance error is thrown when the wallet balance is not enough | DONE
+2023-05-15T18:59:18.964427 |  End TestCase  |  Test Case 8: Verify that insufficient balance error is thrown when the wallet balance is not enough:  | PASS
+Test Case End: TestCase08
+Test Case Start: TestCase10
+2023-05-15T18:59:19.681456 |  Start TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | DONE
+2023-05-15T18:59:26.149176 |  End TestCase  |  Test Case 10:    Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+2023-05-15T18:59:27.512598 |  End TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+2023-05-15T18:59:27.748881 |  End TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+2023-05-15T18:59:28.455288 |  End TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+2023-05-15T18:59:28.712161 |  End TestCase  |  Test Case 10: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+Test Case End: TestCase10
+Test Case Start: TestCase09
+2023-05-15T18:59:29.754479 |  Start TestCase  |  Test Case 9: Verify that product added to cart is available when a new tab is opened | DONE
+2023-05-15T18:59:36.459465 |  End TestCase  |  Test Case 9:   Verify that product added to cart is available when a new tab is opened | PASS
+2023-05-15T18:59:44.150339 |  End TestCase  |  Test Case 9: Verify that product added to cart is available when a new tab is opened | PASS
+Test Case End: TestCase09
+Test Case Start: TestCase11
+2023-05-15T18:59:45.756609 |  Start TestCase  |  Test Case 11: Verify that contact us option is working correctly  | DONE
+2023-05-15T18:59:48.347517 |  End TestCase  |  Test Case 11: Verify that contact us option is working correctly  | PASS
+Test Case End: TestCase11
+Test Case Start: TestCase12
+2023-05-15T18:59:49.737811 |  Start TestCase  |  Test Case 12: Ensure that the links on the QKART advertisement are clickable | DONE
+2023-05-15T18:59:56.202081 |  End TestCase  |  Test Case 12:  Ensure that the links on the QKART advertisement are clickable | PASS
+2023-05-15T19:00:09.493323 |  Step   |  Verify that 3 Advertisements are available | PASS
+2023-05-15T19:00:09.817566 |  Step   |  Verify that Advertisement 1 is clickable  | PASS
+2023-05-15T19:00:13.429878 |  Step   |  Verify that Advertisement 2 is clickable  | PASS
+2023-05-15T19:00:13.430089 |  End TestCase  |  Test Case 12:  Ensure that the links on the QKART advertisement are clickable | PASS
+Test Case End: TestCase12
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
